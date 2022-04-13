@@ -116,11 +116,14 @@ img.principal{
     width: 30%;
     height: 30%;
     opacity: 1;
-    border: 2px dimgrey;   
+    border: 2px dimgrey;  
+    transition: all 2s; 
 }
 img.principal:hover{
     opacity: 1;
     border:none;
+    transform: scale(1.1,1.1);
+    border-radius: 30px;
 }
 
 .contenedor {
@@ -148,7 +151,7 @@ img.principal:hover{
     p {
         color: dimgrey;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text height: 1.6;
+        text height: 0.5;
     }
     
     h2 {
@@ -276,7 +279,7 @@ img.principal:hover{
     p {
         color: dimgrey;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text height: 1.6;
+        text height: 0.5;
     }
     
     h2 {

@@ -117,13 +117,15 @@ img.principal{
     height: 30%;
     opacity: 1;
     border: 2px dimgrey;  
-    transition: all 2s; 
+    transition: all 2s ease;
+    border-radius: 30px;
+   
 }
 img.principal:hover{
     opacity: 1;
     border:none;
     transform: scale(1.1,1.1);
-    border-radius: 30px;
+      
 }
 
 .contenedor {

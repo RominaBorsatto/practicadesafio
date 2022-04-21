@@ -127,10 +127,6 @@ img.principal:hover{
     transform: scale(1.1,1.1);
       
 }
-.form-label{
-    color: darksalmon;
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
 
 .contenedor {
     width: 90%;

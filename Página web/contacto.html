@@ -33,31 +33,26 @@
 <main>
         <section>
             <h3>Contacto</h3>
-            <form action="">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Pregunta</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            
     
-    <fieldset>
-        <legend>Formulario de Contacto</legend>
-                    <div>
-                        <label for="nombre"> Escribe tu nombre</label>
-                        <input type="text" name="nombre">
-                    </div><br>
-                    <div>
-                        <label for="apellido"> Escribe tu apellido</label>
-                        <input type="text" name="apellido">
-                    </div><br>
-                    <div>
-                        <label for="email">Escribe tu email</label>
-                        <input type="email" name="email">
-                    </div><br>
-                    <div>
-                        <label form="comentario">Dejanos tu consulta</label><br>
-                        <textarea name="comentario" id="" cols="30"rows="10"></textarea>
-        
-                    </div><br>
-                    
-                    <input type="submit" value="Enviar datos">
-    </fieldset>
-    </form>
+
+    
     
         </section>
 </main>

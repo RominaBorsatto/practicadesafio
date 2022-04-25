@@ -18,7 +18,7 @@ h1 {
 
 p {
     color: dimgrey;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
     text height: 1.6;
 }
 
@@ -138,268 +138,260 @@ img.principal:hover{
     display: grid;
     grid-template-columns: repeat(1 ,3fr);
     grid-template-rows: repeat(1, 2fr);
-  
-       
+        
 }
 @media only screen and (max-widht:768px){
-    body {
-        background-image: url(./imagenes/fondo3.jpg);
-    }
-    
-    h1 {
-        color: teal;
-        text-align: center;
-        text-decoration: dotted;
-        font-family: 'Arima Madurai', cursive;
-        font-size: 2rem;
-    }
-    
-    p {
-        color: dimgrey;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text height: 0.5;
-    }
-    
-    h2 {
-        color: darkslategrey;
-        font-style: italic;
-        font-size: 1.5rem;
-    }
-    
-    ul {
-        list-style-type: circle
-    }
-    
-    h3 {
-        color: grey;
-        font-style: oblique;
-        font-size: x-large;
-    }
-    
-    .subtitulo {
-        text-align: center;
-    }
-    
-    .menu {
-        list-style: none;
-        margin: 10px;
-        background-color: linen;
-        text-align: center;
-        gap: 10rem;
-    
-    }
-    
-    .menu li {
-        display: inline-block;
-        text-align: center;
-        margin: 20px;
-        background-color: beige;
-    
-    }
-    
-    .menu li a {
-        text-decoration: none;
-        display: inline-block;
-    
-    }
-    
-    .menu li:hover {
-        background-color: gray;
-        border-radius: 10%;
-    }
-    
-    .menu li a:hover {
-        color: bisque;
-    }
-    
-    .pie {
-        color: slategrey;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    }
-    
-    
-    img {
-        width: 250px;
-        height: 200px;
-        opacity: .4;
-        border: 2px dimgrey;
-    }
-    
-    img.logo{
-        width: 10%;
-        height: 10%;
-        opacity: 1;
-        border: 2px dimgrey;
-    }
-    
-    img.logo:hover{
-        opacity: 1;
-        border: none;
-    }
+        body {
+            background-image: url(./imagenes/fondo3.jpg);
+        }
         
-    nav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    img:hover {
-        opacity: 1;
-        border: solid 2px white;
-    
-    }
-    img.principal{
-        width: 30%;
-        height: 30%;
-        opacity: 1;
-        border: 2px dimgrey;   
-    }
-    img.principal:hover{
-        opacity: 1;
-        border:none;
-    }
-    
-    .contenedor {
-        width: 90%;
-        margin: 5%;
-        display: grid;
-        grid-template-columns: repeat(1 ,3fr);
-        grid-template-rows: repeat(4, 2fr);
-   
-}
+        h1 {
+            color: teal;
+            text-align: center;
+            text-decoration: dotted;
+            font-family: 'Arima Madurai', cursive;
+            font-size: 2rem;
+        }
+        
+        p {
+            color: dimgrey;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text height: 0.5;
+        }
+        
+        h2 {
+            color: darkslategrey;
+            font-style: italic;
+            font-size: 1.5rem;
+        }
+        
+        ul {
+            list-style-type: circle
+        }
+        
+        h3 {
+            color: grey;
+            font-style: oblique;
+            font-size: x-large;
+        }
+        
+        .subtitulo {
+            text-align: center;
+        }
+        
+        .menu {
+            list-style: none;
+            margin: 10px;
+            background-color: linen;
+            text-align: center;
+            gap: 10rem;
+        
+        }
+        
+        .menu li {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+            background-color: beige;
+        
+        }
+        
+        .menu li a {
+            text-decoration: none;
+            display: inline-block;
+        
+        }
+        
+        .menu li:hover {
+            background-color: gray;
+            border-radius: 10%;
+        }
+        
+        .menu li a:hover {
+            color: bisque;
+        }
+        
+        .pie {
+            color: slategrey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        
+        
+        img {
+            width: 250px;
+            height: 200px;
+            opacity: .4;
+            border: 2px dimgrey;
+        }
+        
+        img.logo{
+            width: 10%;
+            height: 10%;
+            opacity: 1;
+            border: 2px dimgrey;
+        }
+        
+        img.logo:hover{
+            opacity: 1;
+            border: none;
+        }
+            
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        img:hover {
+            opacity: 1;
+            border: solid 2px white;
+        
+        }
+        img.principal{
+            width: 30%;
+            height: 30%;
+            opacity: 1;
+            border: 2px dimgrey;   
+        }
+        img.principal:hover{
+            opacity: 1;
+            border:none;
+        }
+        
+        .contenedor {
+            width: 90%;
+            margin: 5%;
+            display: grid;
+            grid-template-columns: repeat(1 ,3fr);
+            grid-template-rows: repeat(4, 2fr);
+        }
+       
 @media only screen (min-widht 280px){
-    body {
-        background-image: url(./imagenes/fondo3.jpg);
-    }
-    
-    h1 {
-        color: teal;
-        text-align: center;
-        text-decoration: dotted;
-        font-family: 'Arima Madurai', cursive;
-        font-size: 2rem;
-    }
-    
-    p {
-        color: dimgrey;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text height: 0.5;
-    }
-    
-    h2 {
-        color: darkslategrey;
-        font-style: italic;
-        font-size: 1.5rem;
-    }
-    
-    ul {
-        list-style-type: circle
-    }
-    
-    h3 {
-        color: grey;
-        font-style: oblique;
-        font-size: x-large;
-    }
-    
-    .subtitulo {
-        text-align: center;
-    }
-    
-    .menu {
-        list-style: none;
-        margin: 10px;
-        background-color: linen;
-        text-align: center;
-        gap: 10rem;
-    
-    }
-    
-    .menu li {
-        display: inline-block;
-        text-align: center;
-        margin: 20px;
-        background-color: beige;
-    
-    }
-    
-    .menu li a {
-        text-decoration: none;
-        display: inline-block;
-    
-    }
-    
-    .menu li:hover {
-        background-color: gray;
-        border-radius: 10%;
-    }
-    
-    .menu li a:hover {
-        color: bisque;
-    }
-    
-    .pie {
-        color: slategrey;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    }
-    
-    
-    img {
-        width: 250px;
-        height: 200px;
-        opacity: .4;
-        border: 2px dimgrey;
-    }
-    
-    img.logo{
-        width: 10%;
-        height: 10%;
-        opacity: 1;
-        border: 2px dimgrey;
-    }
-    
-    img.logo:hover{
-        opacity: 1;
-        border: none;
-    }
+        body {
+            background-image: url(./imagenes/fondo3.jpg);
+        }
         
-    nav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    img:hover {
-        opacity: 1;
-        border: solid 2px white;
-    
-    }
-    img.principal{
-        width: 30%;
-        height: 30%;
-        opacity: 1;
-        border: 2px dimgrey;   
-    }
-    img.principal:hover{
-        opacity: 1;
-        border:none;
-    }
-    
-    .contenedor {
-        width: 90%;
-        margin: 5%;
-        display: grid;
-        grid-template-columns: repeat(1 ,3fr);
-        grid-template-rows: repeat(4, 2fr);
-      
-}
-
-
-
-
-
-
+        h1 {
+            color: teal;
+            text-align: center;
+            text-decoration: dotted;
+            font-family: 'Arima Madurai', cursive;
+            font-size: 2rem;
+        }
+        
+        p {
+            color: dimgrey;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text height: 0.5;
+        }
+        
+        h2 {
+            color: darkslategrey;
+            font-style: italic;
+            font-size: 1.5rem;
+        }
+        
+        ul {
+            list-style-type: circle
+        }
+        
+        h3 {
+            color: grey;
+            font-style: oblique;
+            font-size: x-large;
+        }
+        
+        .subtitulo {
+            text-align: center;
+        }
+        
+        .menu {
+            list-style: none;
+            margin: 10px;
+            background-color: linen;
+            text-align: center;
+            gap: 10rem;
+        
+        }
+        
+        .menu li {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+            background-color: beige;
+        
+        }
+        
+        .menu li a {
+            text-decoration: none;
+            display: inline-block;
+        
+        }
+        
+        .menu li:hover {
+            background-color: gray;
+            border-radius: 10%;
+        }
+        
+        .menu li a:hover {
+            color: bisque;
+        }
+        
+        .pie {
+            color: slategrey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        
+        
+        img {
+            width: 250px;
+            height: 200px;
+            opacity: .4;
+            border: 2px dimgrey;
+        }
+        
+        img.logo{
+            width: 10%;
+            height: 10%;
+            opacity: 1;
+            border: 2px dimgrey;
+        }
+        
+        img.logo:hover{
+            opacity: 1;
+            border: none;
+        }
+            
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        img:hover {
+            opacity: 1;
+            border: solid 2px white;
+        
+        }
+        img.principal{
+            width: 30%;
+            height: 30%;
+            opacity: 1;
+            border: 2px dimgrey;   
+        }
+        img.principal:hover{
+            opacity: 1;
+            border:none;
+        }
+        
+        .contenedor {
+            width: 90%;
+            margin: 5%;
+            display: grid;
+            grid-template-columns: repeat(1 ,3fr);
+            grid-template-rows: repeat(4, 2fr);
+        }

@@ -9,15 +9,14 @@ $desktop:768px;
     box-sizing: border-box;
 }
 body {
-    background-image: url(./imagenes/fondo3.jpg);
+    background-image: url(/imagenes/fondo3.jpg);
 }
 h1 {
 
-    color: teal;
+    color:darkslategray;
     text-align: center;
     text-decoration: dotted;
-    font-family: 'Arima Madurai', cursive;
-    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 p {
     color: dimgrey;
@@ -26,7 +25,7 @@ p {
 }
 
 h2 {
-    color: darkslategrey;
+    color:salmon;
     font-style: italic;
         font-size: 1.5rem;
 }
@@ -40,6 +39,9 @@ h3 {
 }
 .subtitulo {
     text-align: center;
+    color:blueviolet;
+    font-style: italic;
+        font-size: 1.5rem;
 }
 .menu {
     list-style: none;

@@ -129,7 +129,7 @@ img.principal:hover{
 p.seccion{
     @media (max-widht:$desktop){
         body {
-            background-image: url(./imagenes/fondo3.jpg);
+            background-image: url(/imagenes/fondo3.jpg);
         }
         
         h1 {
@@ -261,7 +261,7 @@ p.seccion{
 p.seccion{
     @media (min-widht:$smartphone){
         body {
-            background-image: url(./imagenes/fondo3.jpg);
+            background-image: url(/imagenes/fondo3.jpg);
         }
         
         h1 {

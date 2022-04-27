@@ -152,7 +152,7 @@ img.principal:hover {
 
 @media (max-widht: 768px) {
   p.seccion body {
-    background-image: url(./imagenes/fondo3.jpg);
+    background-image: url(/imagenes/fondo3.jpg);
   }
   p.seccion h1 {
     color: teal;
@@ -267,7 +267,7 @@ img.principal:hover {
 
 @media (min-widht: 280px) {
   p.seccion body {
-    background-image: url(./imagenes/fondo3.jpg);
+    background-image: url(/imagenes/fondo3.jpg);
   }
   p.seccion h1 {
     color: teal;

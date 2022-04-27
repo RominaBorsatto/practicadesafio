@@ -98,7 +98,7 @@ img.logo:hover {
   border: none;
 }
 
-nav {
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,7 +226,7 @@ img.principal:hover {
     opacity: 1;
     border: none;
   }
-  p.seccion nav {
+  p.seccion .nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -341,7 +341,7 @@ img.principal:hover {
     opacity: 1;
     border: none;
   }
-  p.seccion nav {
+  p.seccion .nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

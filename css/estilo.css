@@ -100,7 +100,7 @@ img.logo:hover{
     border: none;
 }
     
-nav {
+.nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -237,7 +237,7 @@ img.principal:hover{
             border: none;
         }
             
-        nav {
+        .nav {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -365,7 +365,7 @@ img.principal:hover{
             border: none;
         }
             
-        nav {
+        .nav {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;

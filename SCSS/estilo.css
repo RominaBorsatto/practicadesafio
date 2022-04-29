@@ -40,7 +40,7 @@ h3 {
 
 .subtitulo {
   text-align: center;
-  color: blueviolet;
+  color: darksalmon;
   font-style: italic;
   font-size: 1.5rem;
 }
@@ -125,6 +125,7 @@ img.principal {
   -webkit-transition: all 2s ease;
   transition: all 2s ease;
   border-radius: 30px;
+  text-align: center;
 }
 
 img.principal:hover {
@@ -132,6 +133,10 @@ img.principal:hover {
   border: none;
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
+}
+
+.nav.principal {
+  text-align: center;
 }
 
 .form-label {

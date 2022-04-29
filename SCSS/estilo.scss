@@ -39,23 +39,23 @@ h3 {
 }
 .subtitulo {
     text-align: center;
-    color:blueviolet;
+    color:darksalmon;
     font-style: italic;
         font-size: 1.5rem;
 }
 .menu {
     list-style: none;
-    margin: 10px;
-    background-color: linen;
-    text-align: center;
-    gap: 10rem;
+    margin: 200px;
+    background-color: rgb(255, 245, 234);
+    text-align:right;
+    gap: 20rem;
 
 }
 .menu li {
     display: inline-block;
     text-align: center;
     margin: 20px;
-    background-color:bisque;
+    background-color:lightgrey;
     .menu li a {
         text-decoration: none;
         display: inline-block;
@@ -109,11 +109,15 @@ img.principal{
     border: 2px dimgrey;  
     transition: all 2s ease;
     border-radius: 30px;  
+    text-align: center;
 }
 img.principal:hover{
     opacity: 1;
     border:none;
     transform: scale(1.1,1.1);      
+}
+.nav.principal{
+    text-align: center;
 }
 .form-label{
     color: darksalmon;

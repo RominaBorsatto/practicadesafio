@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background-image: url("imagenes/fondo3.jpg"); }
+  background-image: url("/imagenes/fondo3.jpg"); }
 
 h1 {
   color: dimgrey;
@@ -114,7 +114,7 @@ img:hover {
 
 @media (max-widht: 768px) {
   p.seccion body {
-    background-image: url("imagenes/fondo3.jpg"); }
+    background-image: url("/imagenes/fondo3.jpg"); }
   p.seccion h1 {
     color: teal;
     text-align: center;
@@ -196,7 +196,7 @@ img:hover {
 
 @media (min-widht: 280px) {
   p.seccion body {
-    background-image: url("imagenes/fondo3.jpg"); }
+    background-image: url("/imagenes/fondo3.jpg"); }
   p.seccion h1 {
     color: teal;
     text-align: center;

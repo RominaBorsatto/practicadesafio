@@ -4,10 +4,10 @@
   box-sizing: border-box; }
 
 body {
-  background-image: url(/imagenes/fondo3.jpg); }
+  background-image: url("/imagenes/fondo3.jpg"); }
 
 h1 {
-  color: darkslategray;
+  color: dimgrey;
   text-align: center;
   text-decoration: dotted;
   font-family: Georgia, 'Times New Roman', Times, serif; }
@@ -37,16 +37,16 @@ h3 {
 
 .menu {
   list-style: none;
-  margin: 200px;
-  background-color: #fff5ea;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f0f8;
   text-align: right;
   gap: 20rem; }
 
 .menu li {
-  display: inline-block;
   text-align: center;
   margin: 20px;
-  background-color: lightgrey; }
+  background-color: papayawhip; }
   .menu li .menu li a {
     text-decoration: none;
     display: inline-block; }
@@ -77,7 +77,7 @@ img.logo:hover {
   opacity: 1;
   border: none; }
 
-.nav {
+.galeria {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -87,7 +87,7 @@ img:hover {
   opacity: 1;
   border: solid 2px white; }
 
-img.principal {
+.fotofruta {
   width: 30%;
   height: 30%;
   opacity: 1;
@@ -96,13 +96,10 @@ img.principal {
   border-radius: 30px;
   text-align: center; }
 
-img.principal:hover {
+.fotofruta:hover {
   opacity: 1;
   border: none;
   transform: scale(1.1, 1.1); }
-
-.nav.principal {
-  text-align: center; }
 
 .form-label {
   color: darksalmon;

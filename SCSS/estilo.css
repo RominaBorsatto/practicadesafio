@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  color: darkslategray;
+  color: dimgrey;
   text-align: center;
   -webkit-text-decoration: dotted;
           text-decoration: dotted;
@@ -48,16 +48,16 @@ h3 {
 .menu {
   list-style: none;
   margin: 10px;
-  background-color: linen;
-  text-align: center;
-  gap: 10rem;
+  padding: 10px;
+  background-color: #f8f0f8;
+  text-align: right;
+  gap: 20rem;
 }
 
 .menu li {
-  display: inline-block;
   text-align: center;
   margin: 20px;
-  background-color: bisque;
+  background-color: papayawhip;
 }
 
 .menu li .menu li a {
@@ -98,7 +98,7 @@ img.logo:hover {
   border: none;
 }
 
-.nav {
+.galeria {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@ img:hover {
   border: solid 2px white;
 }
 
-img.principal {
+.fotofruta {
   width: 30%;
   height: 30%;
   opacity: 1;
@@ -128,15 +128,11 @@ img.principal {
   text-align: center;
 }
 
-img.principal:hover {
+.fotofruta:hover {
   opacity: 1;
   border: none;
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
-}
-
-.nav.principal {
-  text-align: center;
 }
 
 .form-label {

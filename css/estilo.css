@@ -104,6 +104,30 @@ img:hover {
 .form-label {
   color: darksalmon;
   font-family: Georgia, 'Times New Roman', Times, serif; }
+ 
+.bi-facebook{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(96, 96, 170)
+}
+.bi-twitter{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(53, 163, 163)
+
+}
+.bi-instagram{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(164, 91, 201)
+
+}
 
 .contenedor {
   width: 90%;
@@ -114,7 +138,7 @@ img:hover {
 
 @media (max-widht: 768px) {
   p.seccion body {
-    background-image: url("imagenes/fondo3.jpg"); }
+    background-image: url ("imagenes/fondo3.jpg"); }
   p.seccion h1 {
     color: teal;
     text-align: center;
@@ -196,7 +220,7 @@ img:hover {
 
 @media (min-widht: 280px) {
   p.seccion body {
-    background-image: url("imagenes/fondo3.jpg"); }
+    background-image: url ("imagenes/fondo3.jpg"); }
   p.seccion h1 {
     color: teal;
     text-align: center;

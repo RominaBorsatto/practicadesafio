@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/imagenes/fondo3.jpg);
+  background-color: beige;
 }
 
 h1 {
@@ -140,6 +140,30 @@ img:hover {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.bi-facebook {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #6060aa;
+}
+
+.bi-twitter {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #35a3a3;
+}
+
+.bi-instagram {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #a45bc9;
+}
+
 .contenedor {
   width: 90%;
   margin: 5%;
@@ -153,7 +177,7 @@ img:hover {
 
 @media (max-widht: 768px) {
   p.seccion body {
-    background-image: url(/imagenes/fondo3.jpg);
+    background-image: url("imagenes/fondo3.jpg");
   }
   p.seccion h1 {
     color: teal;
@@ -268,7 +292,7 @@ img:hover {
 
 @media (min-widht: 280px) {
   p.seccion body {
-    background-image: url(/imagenes/fondo3.jpg);
+    background-image: url("imagenes/fondo3.jpg");
   }
   p.seccion h1 {
     color: teal;

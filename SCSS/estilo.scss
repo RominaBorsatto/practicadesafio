@@ -1,6 +1,10 @@
 //variables
 $smartphone:280px;
 $desktop:768px;
+$fb
+$tw
+$inst
+
 
 * {
 
@@ -121,6 +125,24 @@ img:hover {
 .form-label{
     color: darksalmon;
     font-family:Georgia, 'Times New Roman', Times, serif
+}
+//iconos
+.bi-facebook{
+    @include iconosredes($fb)
+}
+.bi-twitter{
+    @include iconosredes($tw)
+
+}
+.bi-instagram{
+   @include iconosredes($inst)
+}
+@mixin iconosredes {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(96, 96, 170)
 }
 .contenedor {
     width: 90%;

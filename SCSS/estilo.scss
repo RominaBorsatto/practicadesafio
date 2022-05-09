@@ -81,12 +81,10 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img {
-    width: 10%;
-    height: 10%;
-    opacity: 1;
-    border: 2px dimgrey;
-    
-   
+  width: 250px;
+  height: 200px;
+  opacity: .4;
+  border: 2px dimgrey;
 }
 img.logo{
     width: 10%;
@@ -102,9 +100,8 @@ img.logo:hover{
 
 
 img:hover {
-    opacity: 0;
+    opacity: 1;
     border: solid 2px white;
-
 }
 .fotofruta{
     width: 30%;
@@ -126,6 +123,14 @@ img.fotofruta:hover {
     color: darksalmon;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
 .bi-facebook {
     text-align: center;
     margin-left: 10px;

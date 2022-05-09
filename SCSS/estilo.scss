@@ -1,9 +1,9 @@
 //variables
 $smartphone:280px;
 $desktop:768px;
-$fb
-$tw
-$inst
+::after$fb
+::after$tw
+::after$inst
 
 
 * {
@@ -81,29 +81,28 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img {
-    width: 250px;
-    height: 200px;
-    opacity: .4;
+    width: 10%;
+    height: 10%;
+    opacity: 1;
     border: 2px dimgrey;
+    
+   
 }
 img.logo{
     width: 10%;
     height: 10%;
     opacity: 1;
     border: 2px dimgrey;
+
 }
 img.logo:hover{
     opacity: 1;
     border: none;
 }
-.galeria {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+
+
 img:hover {
-    opacity: 1;
+    opacity: 0;
     border: solid 2px white;
 
 }
@@ -116,27 +115,40 @@ img:hover {
     border-radius: 30px;  
     text-align: center;
 }
-.fotofruta:hover{
+img.fotofruta:hover {
     opacity: 1;
     border:none;
-    transform: scale(1.1,1.1);      
+    transform: scale(1.1,1.1);  
+  
 }
 
 .form-label{
     color: darksalmon;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-//iconos
-.bi-facebook{
-    @include iconosredes($fb)
+.bi-facebook {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(96, 96, 170)
 }
 .bi-twitter{
-    @include iconosredes($tw)
-
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(64, 64, 219)
 }
 .bi-instagram{
-   @include iconosredes($inst)
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(135, 72, 194)
 }
+
+
 @mixin iconosredes {
     text-align: center;
     margin-left: 10px;
@@ -151,6 +163,7 @@ img:hover {
     grid-template-columns: repeat(1 ,3fr);
     grid-template-rows: repeat(1, 2fr);      
 }
+
 p.seccion{
     @media (max-widht:$desktop){
         body {
@@ -249,7 +262,7 @@ p.seccion{
             border: none;
         }
             
-        .nav {
+        .galeria {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -261,18 +274,22 @@ p.seccion{
             border: solid 2px white;
         
         }
-        img.principal{
+        .pricipal{
             width: 30%;
             height: 30%;
             opacity: 1;
-            border: 2px dimgrey;   
+            border: 2px dimgrey;  
+            transition: all 2s ease;
+            border-radius: 30px;  
+            text-align: center;
         }
-        img.principal:hover{
+        .principal:hover {
             opacity: 1;
             border:none;
+            transform: scale(1.1,1.1);  
+            text-align: center;    
         }
-        
-        .contenedor {
+         .contenedor {
             width: 90%;
             margin: 5%;
             display: grid;
@@ -360,8 +377,6 @@ p.seccion{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         
         }
-        
-        
         img {
             width: 250px;
             height: 200px;
@@ -381,7 +396,7 @@ p.seccion{
             border: none;
         }
             
-        .nav {
+        .galeria {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -393,16 +408,23 @@ p.seccion{
             border: solid 2px white;
         
         }
-        img.principal{
+        .pricipal{
             width: 30%;
             height: 30%;
             opacity: 1;
-            border: 2px dimgrey;   
+            border: 2px dimgrey;  
+            transition: all 2s ease;
+            border-radius: 30px;  
+            text-align: center;
         }
-        img.principal:hover{
+        .principal:hover {
             opacity: 1;
             border:none;
+            transform: scale(1.1,1.1);  
+             
         }
+        
+    
     }
 }
         

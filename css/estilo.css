@@ -1,3 +1,6 @@
+::after$fb
+::after$tw
+::after$inst
 * {
   margin: 0;
   padding: 0;
@@ -62,9 +65,9 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 img {
-  width: 250px;
-  height: 200px;
-  opacity: .4;
+  width: 10%;
+  height: 10%;
+  opacity: 1;
   border: 2px dimgrey; }
 
 img.logo {
@@ -77,14 +80,8 @@ img.logo:hover {
   opacity: 1;
   border: none; }
 
-.galeria {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
 img:hover {
-  opacity: 1;
+  opacity: 0;
   border: solid 2px white; }
 
 .fotofruta {
@@ -96,7 +93,7 @@ img:hover {
   border-radius: 30px;
   text-align: center; }
 
-.fotofruta:hover {
+img.fotofruta:hover {
   opacity: 1;
   border: none;
   transform: scale(1.1, 1.1); }
@@ -104,30 +101,27 @@ img:hover {
 .form-label {
   color: darksalmon;
   font-family: Georgia, 'Times New Roman', Times, serif; }
- 
-.bi-facebook{
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 30px;
-    color:rgb(96, 96, 170)
-}
-.bi-twitter{
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 30px;
-    color:rgb(53, 163, 163)
 
-}
-.bi-instagram{
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-    font-size: 30px;
-    color:rgb(164, 91, 201)
+.bi-facebook {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #6060aa; }
 
-}
+.bi-twitter {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #4040db; }
+
+.bi-instagram {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: #8748c2; }
 
 .contenedor {
   width: 90%;
@@ -138,7 +132,7 @@ img:hover {
 
 @media (max-widht: 768px) {
   p.seccion body {
-    background-image: url ("imagenes/fondo3.jpg"); }
+    background-image: url("imagenes/fondo3.jpg"); }
   p.seccion h1 {
     color: teal;
     text-align: center;
@@ -195,7 +189,7 @@ img:hover {
   p.seccion img.logo:hover {
     opacity: 1;
     border: none; }
-  p.seccion .nav {
+  p.seccion .galeria {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -203,14 +197,19 @@ img:hover {
   p.seccion img:hover {
     opacity: 1;
     border: solid 2px white; }
-  p.seccion img.principal {
+  p.seccion .pricipal {
     width: 30%;
     height: 30%;
     opacity: 1;
-    border: 2px dimgrey; }
-  p.seccion img.principal:hover {
+    border: 2px dimgrey;
+    transition: all 2s ease;
+    border-radius: 30px;
+    text-align: center; }
+  p.seccion .principal:hover {
     opacity: 1;
-    border: none; }
+    border: none;
+    transform: scale(1.1, 1.1);
+    text-align: center; }
   p.seccion .contenedor {
     width: 90%;
     margin: 5%;
@@ -220,7 +219,7 @@ img:hover {
 
 @media (min-widht: 280px) {
   p.seccion body {
-    background-image: url ("imagenes/fondo3.jpg"); }
+    background-image: url("imagenes/fondo3.jpg"); }
   p.seccion h1 {
     color: teal;
     text-align: center;
@@ -277,7 +276,7 @@ img:hover {
   p.seccion img.logo:hover {
     opacity: 1;
     border: none; }
-  p.seccion .nav {
+  p.seccion .galeria {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -285,11 +284,15 @@ img:hover {
   p.seccion img:hover {
     opacity: 1;
     border: solid 2px white; }
-  p.seccion img.principal {
+  p.seccion .pricipal {
     width: 30%;
     height: 30%;
     opacity: 1;
-    border: 2px dimgrey; }
-  p.seccion img.principal:hover {
+    border: 2px dimgrey;
+    transition: all 2s ease;
+    border-radius: 30px;
+    text-align: center; }
+  p.seccion .principal:hover {
     opacity: 1;
-    border: none; } }
+    border: none;
+    transform: scale(1.1, 1.1); } }

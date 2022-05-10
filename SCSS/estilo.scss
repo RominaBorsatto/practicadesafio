@@ -81,10 +81,8 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img {
-  width: 250px;
-  height: 200px;
-  opacity: .4;
-  border: 2px dimgrey;
+    border-radius: 30px;
+
 }
 img.logo{
     width: 10%;
@@ -97,8 +95,6 @@ img.logo:hover{
     opacity: 1;
     border: none;
 }
-
-
 img:hover {
     opacity: 1;
     border: solid 2px white;
@@ -118,7 +114,6 @@ img.fotofruta:hover {
     transform: scale(1.1,1.1);  
   
 }
-
 .form-label{
     color: darksalmon;
     font-family:Georgia, 'Times New Roman', Times, serif
@@ -129,8 +124,10 @@ img.fotofruta:hover {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
+.listas{
+    font-style: italic;
+    color:rgb(131, 16, 79);
+}
 .bi-facebook {
     text-align: center;
     margin-left: 10px;
@@ -167,6 +164,9 @@ img.fotofruta:hover {
     display: grid;
     grid-template-columns: repeat(1 ,3fr);
     grid-template-rows: repeat(1, 2fr);      
+}
+.carousel{
+    text-align: center;
 }
 
 p.seccion{

@@ -5,7 +5,6 @@ $desktop:768px;
 ::after$tw
 ::after$inst
 
-
 * {
 
     margin: 0;
@@ -47,35 +46,31 @@ h3 {
     font-style: italic;
         font-size: 1.5rem;
 }
-.menu {
+.menú {
     list-style: none;
-    margin:10px;
-    padding: 10px;
-    background-color:rgb(248, 240, 248);
-    text-align:right;
-    gap: 20rem;
+    margin:5px;
+    padding: 5px;
+    background-color:burlywood
 
 }
-.menu li {
-    
+.navbar-nav {
+    color:bisque;
+    margin: 10px;
+    background-color:beige;
     text-align: center;
-    margin: 20px;
-    background-color:papayawhip;
-    .menu li a {
+    .menú a {
         text-decoration: none;
-        display: inline-block;
-    
+        color:bisque ;
     }
 }
-.menu li:hover {
+.menú li:hover {
     background-color:darkgrey;
     border-radius: 10%;
-    .menu li a:hover {
-        color: bisque;
+    .menú li a:hover {
+        color:chocolate;
     }
 
 }
-
 .pie {
     color: slategrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -98,21 +93,6 @@ img.logo:hover{
 img:hover {
     opacity: 1;
     border: solid 2px white;
-}
-.fotofruta{
-    width: 30%;
-    height: 30%;
-    opacity: 1;
-    border: 2px dimgrey;  
-    transition: all 2s ease;
-    border-radius: 30px;  
-    text-align: center;
-}
-img.fotofruta:hover {
-    opacity: 1;
-    border:none;
-    transform: scale(1.1,1.1);  
-  
 }
 .form-label{
     color: darksalmon;
@@ -149,7 +129,11 @@ img.fotofruta:hover {
     font-size: 30px;
     color:rgb(135, 72, 194)
 }
-
+.botón{
+    color:darkslategrey;
+    border: solid 2px rgb(252, 161, 168);
+    
+}
 
 @mixin iconosredes {
     text-align: center;
@@ -172,9 +156,9 @@ img.fotofruta:hover {
 p.seccion{
     @media (max-widht:$desktop){
         body {
-            background-image: url("imagenes/fondo3.jpg");
+            background-color:beige;
+            
         }
-        
         h1 {
             color: teal;
             text-align: center;
@@ -182,8 +166,7 @@ p.seccion{
             font-family: 'Arima Madurai', cursive;
             font-size: 2rem;
         }
-        
-        p {
+         p {
             color: dimgrey;
             font-family: Georgia, 'Times New Roman', Times, serif;
            

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 ::after$fb
 ::after$tw
 ::after$inst
@@ -38,27 +39,26 @@ h3 {
   font-style: italic;
   font-size: 1.5rem; }
 
-.menu {
+.menú {
   list-style: none;
+  margin: 5px;
+  padding: 5px;
+  background-color: burlywood; }
+
+.navbar-nav {
+  color: bisque;
   margin: 10px;
-  padding: 10px;
-  background-color: #f8f0f8;
-  text-align: right;
-  gap: 20rem; }
-
-.menu li {
-  text-align: center;
-  margin: 20px;
-  background-color: papayawhip; }
-  .menu li .menu li a {
+  background-color: beige;
+  text-align: center; }
+  .navbar-nav .menú a {
     text-decoration: none;
-    display: inline-block; }
+    color: bisque; }
 
-.menu li:hover {
+.menú li:hover {
   background-color: darkgrey;
   border-radius: 10%; }
-  .menu li:hover .menu li a:hover {
-    color: bisque; }
+  .menú li:hover .menú li a:hover {
+    color: chocolate; }
 
 .pie {
   color: slategrey;
@@ -80,20 +80,6 @@ img.logo:hover {
 img:hover {
   opacity: 1;
   border: solid 2px white; }
-
-.fotofruta {
-  width: 30%;
-  height: 30%;
-  opacity: 1;
-  border: 2px dimgrey;
-  transition: all 2s ease;
-  border-radius: 30px;
-  text-align: center; }
-
-img.fotofruta:hover {
-  opacity: 1;
-  border: none;
-  transform: scale(1.1, 1.1); }
 
 .form-label {
   color: darksalmon;
@@ -130,6 +116,10 @@ img.fotofruta:hover {
   font-size: 30px;
   color: #8748c2; }
 
+.botón {
+  color: darkslategrey;
+  border: solid 2px #fca1a8; }
+
 .contenedor {
   width: 90%;
   margin: 5%;
@@ -142,7 +132,7 @@ img.fotofruta:hover {
 
 @media (max-widht: 768px) {
   p.seccion body {
-    background-image: url("imagenes/fondo3.jpg"); }
+    background-color: beige; }
   p.seccion h1 {
     color: teal;
     text-align: center;

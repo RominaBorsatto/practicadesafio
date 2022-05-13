@@ -134,6 +134,14 @@ img:hover {
     border: solid 2px rgb(252, 161, 168);
     
 }
+.img-fluid{
+    width: 40%;
+    height: 40%;
+}
+img.fluid:hover{
+    opacity: 1;
+    border:0cm;  
+}
 
 @mixin iconosredes {
     text-align: center;

@@ -120,6 +120,14 @@ img:hover {
   color: darkslategrey;
   border: solid 2px #fca1a8; }
 
+.img-fluid {
+  width: 40%;
+  height: 40%; }
+
+img.fluid:hover {
+  opacity: 1;
+  border: 0cm; }
+
 .contenedor {
   width: 90%;
   margin: 5%;

@@ -4,9 +4,7 @@ $desktop:768px;
 ::after$fb
 ::after$tw
 ::after$inst
-
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +24,6 @@ p {
     font-family:Georgia, 'Times New Roman', Times, serif
     
 }
-
 h2 {
     color:salmon;
     font-style: italic;
@@ -142,7 +139,7 @@ img.fluid:hover{
     opacity: 1;
     border:0cm;  
 }
-
+//uso mixin
 @mixin iconosredes {
     text-align: center;
     margin-left: 10px;
@@ -160,7 +157,6 @@ img.fluid:hover{
 .carousel{
     text-align: center;
 }
-
 p.seccion{
     @media (max-widht:$desktop){
         body {
@@ -195,76 +191,59 @@ p.seccion{
             font-style: oblique;
             font-size: x-large;
         }
-        
         .subtitulo {
             text-align: center;
         }
-        
         .menu {
             list-style: none;
             margin: 10px;
             background-color: linen;
             text-align: center;
             gap: 10rem;
-        
         }
-        
         .menu li {
             display: inline-block;
             text-align: center;
             margin: 20px;
             background-color: beige;
-        
         }
-        
         .menu li a {
             text-decoration: none;
             display: inline-block;
-        
         }
-        
         .menu li:hover {
             background-color: gray;
             border-radius: 10%;
         }
-        
         .menu li a:hover {
             color: bisque;
         }
-        
         .pie {
             color: slategrey;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
         }
-        
-        
         img {
             width: 250px;
             height: 200px;
             opacity: .4;
             border: 2px dimgrey;
         }
-        
         img.logo{
             width: 10%;
             height: 10%;
             opacity: 1;
             border: 2px dimgrey;
         }
-        
         img.logo:hover{
             opacity: 1;
             border: none;
         }
-            
         .galeria {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        
         img:hover {
             opacity: 1;
             border: solid 2px white;
@@ -301,7 +280,6 @@ p.seccion{
         body {
             background-image: url("imagenes/fondo3.jpg");
         }
-        
         h1 {
             color: teal;
             text-align: center;
@@ -309,7 +287,6 @@ p.seccion{
             font-family: 'Arima Madurai', cursive;
             font-size: 2rem;
         }
-        
         p {
             color: dimgrey;
             font-family: Georgia, 'Times New Roman', Times, serif;
